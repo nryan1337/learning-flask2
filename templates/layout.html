@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../static/css/bootstrap.css" rel="stylesheet" />
+    <link href="../static/css/main.css" rel="stylesheet" />
+    <link href={{ url_for('static', filename='css/main.css') }} rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">Learning Flask</h1>
+        </div>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+
+</body>
+</html>
